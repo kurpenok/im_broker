@@ -1,3 +1,4 @@
+mod broker;
 mod command;
 mod error;
 mod message;
