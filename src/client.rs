@@ -4,7 +4,7 @@ use tokio::{
 };
 
 #[derive(Debug)]
-struct Client {
+pub struct Client {
     stream: TcpStream,
 }
 
